@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Senha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="cartao">
+    <h1>Verificador de Senha</h1>
+
+    <div class="campo">
+      <input type="password" id="senha" placeholder="Digite sua senha">
+      <button id="mostrar" type="button">Mostrar</button>
+    </div>
+
+    <div class="barra-fundo"><div id="barra"></div></div>
+    <p id="nivel">Digite uma senha</p>
+
+    <ul>
+      <li id="r-tamanho">✗ Mínimo de 8 caracteres</li>
+      <li id="r-letras">✗ Letras maiúsculas e minúsculas</li>
+      <li id="r-numero">✗ Pelo menos um número</li>
+      <li id="r-simbolo">✗ Pelo menos um símbolo</li>
+    </ul>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
